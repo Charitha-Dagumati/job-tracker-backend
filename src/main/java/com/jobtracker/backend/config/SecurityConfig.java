@@ -51,7 +51,8 @@ public class SecurityConfig {
 
         config.setAllowedOrigins(List.of(
                 "http://localhost:3000",
-                "https://your-vercel-app.vercel.app"
+                "https://job-tracker-fullstack-fawn.vercel.app",
+                "https://job-tracker-frontend-steel.vercel.app"
         ));
 
         config.setAllowedMethods(List.of("GET","POST","PUT","DELETE","OPTIONS"));
